@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5efd6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h5 {
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(93, 62, 4);
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgb(93, 62, 4);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.bg-hneda {
+  background-color: #5d3e04;
+  color: white;
+}
+
+footer {
+  background-color: #f2eacdda;
+  color: #555;
+}
